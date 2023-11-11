@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36738FEF2AF6AAE200C27088 /* TestWrapTextImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36738FEE2AF6AAE200C27088 /* TestWrapTextImage.swift */; };
+		367BF1E12AF3EB5700B5FCB6 /* MotoControllApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367BF1E02AF3EB5600B5FCB6 /* MotoControllApp.swift */; };
+		367BF1E32AF3EB5700B5FCB6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367BF1E22AF3EB5700B5FCB6 /* ContentView.swift */; };
+		367BF1E52AF3EB5800B5FCB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 367BF1E42AF3EB5800B5FCB6 /* Assets.xcassets */; };
+		367BF1E82AF3EB5800B5FCB6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 367BF1E72AF3EB5800B5FCB6 /* Preview Assets.xcassets */; };
+		367BF1EF2AF3EC5300B5FCB6 /* MotoCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367BF1EE2AF3EC5200B5FCB6 /* MotoCard.swift */; };
+		367BF1F12AF40AFD00B5FCB6 /* CardsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367BF1F02AF40AFD00B5FCB6 /* CardsModel.swift */; };
+		367BF1F32AF4136100B5FCB6 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367BF1F22AF4136100B5FCB6 /* DetailView.swift */; };
+		367BF1F52AF429AA00B5FCB6 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367BF1F42AF429AA00B5FCB6 /* StartView.swift */; };
+		367BF1F72AF42C4C00B5FCB6 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367BF1F62AF42C4C00B5FCB6 /* ListView.swift */; };
+		367BF1F92AF42F1600B5FCB6 /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367BF1F82AF42F1600B5FCB6 /* ListItem.swift */; };
+		367BF1FF2AF4362F00B5FCB6 /* GridCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367BF1FE2AF4362F00B5FCB6 /* GridCards.swift */; };
+		368922052AFD011F00791C89 /* TestStartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368922042AFD011F00791C89 /* TestStartView.swift */; };
+		368922072AFD0B2600791C89 /* TestListModelAll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368922062AFD0B2600791C89 /* TestListModelAll.swift */; };
+		36977E1A2AF4DE7B0093500A /* ListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36977E192AF4DE7B0093500A /* ListModel.swift */; };
+		36977E1C2AF4E25B0093500A /* VideoDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36977E1B2AF4E25B0093500A /* VideoDetail.swift */; };
+		36977E1E2AF4E2E50093500A /* TextDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36977E1D2AF4E2E50093500A /* TextDetail.swift */; };
+		36977E202AF4E5470093500A /* DetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36977E1F2AF4E5470093500A /* DetailModel.swift */; };
+		36977E222AF4F0310093500A /* DetailView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36977E212AF4F0310093500A /* DetailView1.swift */; };
+		36977E242AF4F06E0093500A /* DetailModel1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36977E232AF4F06E0093500A /* DetailModel1.swift */; };
+		36977E282AF4F6E60093500A /* ImageDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36977E272AF4F6E60093500A /* ImageDetail.swift */; };
+		36977E2A2AF4FB840093500A /* Favorities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36977E292AF4FB840093500A /* Favorities.swift */; };
+		36977E2C2AF4FCBE0093500A /* ListItemFavorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36977E2B2AF4FCBE0093500A /* ListItemFavorite.swift */; };
+		36977E2E2AF4FEF40093500A /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36977E2D2AF4FEF40093500A /* Settings.swift */; };
+		36977E302AF504A30093500A /* ListItemSettingsSection1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36977E2F2AF504A30093500A /* ListItemSettingsSection1.swift */; };
+		36977E322AF507880093500A /* ListItemSettingsSection2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36977E312AF507880093500A /* ListItemSettingsSection2.swift */; };
+		36977E342AF50DFC0093500A /* Blog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36977E332AF50DFC0093500A /* Blog.swift */; };
+		36977E3A2AF517300093500A /* ButtonStart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36977E392AF517300093500A /* ButtonStart.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		36738FEE2AF6AAE200C27088 /* TestWrapTextImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWrapTextImage.swift; sourceTree = "<group>"; };
+		367BF1DD2AF3EB5600B5FCB6 /* MotoControll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotoControll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		367BF1E02AF3EB5600B5FCB6 /* MotoControllApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotoControllApp.swift; sourceTree = "<group>"; };
+		367BF1E22AF3EB5700B5FCB6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		367BF1E42AF3EB5800B5FCB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		367BF1E72AF3EB5800B5FCB6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		367BF1EE2AF3EC5200B5FCB6 /* MotoCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotoCard.swift; sourceTree = "<group>"; };
+		367BF1F02AF40AFD00B5FCB6 /* CardsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsModel.swift; sourceTree = "<group>"; };
+		367BF1F22AF4136100B5FCB6 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		367BF1F42AF429AA00B5FCB6 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		367BF1F62AF42C4C00B5FCB6 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		367BF1F82AF42F1600B5FCB6 /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
+		367BF1FE2AF4362F00B5FCB6 /* GridCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCards.swift; sourceTree = "<group>"; };
+		368922042AFD011F00791C89 /* TestStartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestStartView.swift; sourceTree = "<group>"; };
+		368922062AFD0B2600791C89 /* TestListModelAll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestListModelAll.swift; sourceTree = "<group>"; };
+		36977E192AF4DE7B0093500A /* ListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModel.swift; sourceTree = "<group>"; };
+		36977E1B2AF4E25B0093500A /* VideoDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetail.swift; sourceTree = "<group>"; };
+		36977E1D2AF4E2E50093500A /* TextDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextDetail.swift; sourceTree = "<group>"; };
+		36977E1F2AF4E5470093500A /* DetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailModel.swift; sourceTree = "<group>"; };
+		36977E212AF4F0310093500A /* DetailView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView1.swift; sourceTree = "<group>"; };
+		36977E232AF4F06E0093500A /* DetailModel1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailModel1.swift; sourceTree = "<group>"; };
+		36977E272AF4F6E60093500A /* ImageDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetail.swift; sourceTree = "<group>"; };
+		36977E292AF4FB840093500A /* Favorities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorities.swift; sourceTree = "<group>"; };
+		36977E2B2AF4FCBE0093500A /* ListItemFavorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemFavorite.swift; sourceTree = "<group>"; };
+		36977E2D2AF4FEF40093500A /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		36977E2F2AF504A30093500A /* ListItemSettingsSection1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemSettingsSection1.swift; sourceTree = "<group>"; };
+		36977E312AF507880093500A /* ListItemSettingsSection2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemSettingsSection2.swift; sourceTree = "<group>"; };
+		36977E332AF50DFC0093500A /* Blog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blog.swift; sourceTree = "<group>"; };
+		36977E392AF517300093500A /* ButtonStart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStart.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		367BF1DA2AF3EB5600B5FCB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		367BF1D42AF3EB5600B5FCB6 = {
+			isa = PBXGroup;
+			children = (
+				367BF1DF2AF3EB5600B5FCB6 /* MotoControll */,
+				367BF1DE2AF3EB5600B5FCB6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		367BF1DE2AF3EB5600B5FCB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				367BF1DD2AF3EB5600B5FCB6 /* MotoControll.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		367BF1DF2AF3EB5600B5FCB6 /* MotoControll */ = {
+			isa = PBXGroup;
+			children = (
+				367BF1E02AF3EB5600B5FCB6 /* MotoControllApp.swift */,
+				367BF1FC2AF4322F00B5FCB6 /* Components */,
+				367BF1FA2AF431DB00B5FCB6 /* Navigation */,
+				367BF1FB2AF4320E00B5FCB6 /* View */,
+				367BF1FD2AF4324A00B5FCB6 /* Models */,
+				367BF1E42AF3EB5800B5FCB6 /* Assets.xcassets */,
+				367BF1E62AF3EB5800B5FCB6 /* Preview Content */,
+			);
+			path = MotoControll;
+			sourceTree = "<group>";
+		};
+		367BF1E62AF3EB5800B5FCB6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				367BF1E72AF3EB5800B5FCB6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		367BF1FA2AF431DB00B5FCB6 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				367BF1E22AF3EB5700B5FCB6 /* ContentView.swift */,
+				36738FEE2AF6AAE200C27088 /* TestWrapTextImage.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		367BF1FB2AF4320E00B5FCB6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				368922042AFD011F00791C89 /* TestStartView.swift */,
+				367BF1F42AF429AA00B5FCB6 /* StartView.swift */,
+				367BF1F62AF42C4C00B5FCB6 /* ListView.swift */,
+				367BF1F22AF4136100B5FCB6 /* DetailView.swift */,
+				36977E212AF4F0310093500A /* DetailView1.swift */,
+				36977E292AF4FB840093500A /* Favorities.swift */,
+				36977E332AF50DFC0093500A /* Blog.swift */,
+				36977E2D2AF4FEF40093500A /* Settings.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		367BF1FC2AF4322F00B5FCB6 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				367BF1EE2AF3EC5200B5FCB6 /* MotoCard.swift */,
+				367BF1F82AF42F1600B5FCB6 /* ListItem.swift */,
+				36977E2B2AF4FCBE0093500A /* ListItemFavorite.swift */,
+				36977E2F2AF504A30093500A /* ListItemSettingsSection1.swift */,
+				36977E312AF507880093500A /* ListItemSettingsSection2.swift */,
+				367BF1FE2AF4362F00B5FCB6 /* GridCards.swift */,
+				36977E1B2AF4E25B0093500A /* VideoDetail.swift */,
+				36977E1D2AF4E2E50093500A /* TextDetail.swift */,
+				36977E272AF4F6E60093500A /* ImageDetail.swift */,
+				36977E392AF517300093500A /* ButtonStart.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		367BF1FD2AF4324A00B5FCB6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				368922062AFD0B2600791C89 /* TestListModelAll.swift */,
+				367BF1F02AF40AFD00B5FCB6 /* CardsModel.swift */,
+				36977E192AF4DE7B0093500A /* ListModel.swift */,
+				36977E1F2AF4E5470093500A /* DetailModel.swift */,
+				36977E232AF4F06E0093500A /* DetailModel1.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		367BF1DC2AF3EB5600B5FCB6 /* MotoControll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 367BF1EB2AF3EB5800B5FCB6 /* Build configuration list for PBXNativeTarget "MotoControll" */;
+			buildPhases = (
+				367BF1D92AF3EB5600B5FCB6 /* Sources */,
+				367BF1DA2AF3EB5600B5FCB6 /* Frameworks */,
+				367BF1DB2AF3EB5600B5FCB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MotoControll;
+			productName = MotoControll;
+			productReference = 367BF1DD2AF3EB5600B5FCB6 /* MotoControll.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		367BF1D52AF3EB5600B5FCB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					367BF1DC2AF3EB5600B5FCB6 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 367BF1D82AF3EB5600B5FCB6 /* Build configuration list for PBXProject "MotoControll" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 367BF1D42AF3EB5600B5FCB6;
+			productRefGroup = 367BF1DE2AF3EB5600B5FCB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				367BF1DC2AF3EB5600B5FCB6 /* MotoControll */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		367BF1DB2AF3EB5600B5FCB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				367BF1E82AF3EB5800B5FCB6 /* Preview Assets.xcassets in Resources */,
+				367BF1E52AF3EB5800B5FCB6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		367BF1D92AF3EB5600B5FCB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				367BF1E32AF3EB5700B5FCB6 /* ContentView.swift in Sources */,
+				36977E3A2AF517300093500A /* ButtonStart.swift in Sources */,
+				36977E302AF504A30093500A /* ListItemSettingsSection1.swift in Sources */,
+				36977E202AF4E5470093500A /* DetailModel.swift in Sources */,
+				36977E282AF4F6E60093500A /* ImageDetail.swift in Sources */,
+				368922072AFD0B2600791C89 /* TestListModelAll.swift in Sources */,
+				367BF1F12AF40AFD00B5FCB6 /* CardsModel.swift in Sources */,
+				367BF1E12AF3EB5700B5FCB6 /* MotoControllApp.swift in Sources */,
+				367BF1F72AF42C4C00B5FCB6 /* ListView.swift in Sources */,
+				367BF1F92AF42F1600B5FCB6 /* ListItem.swift in Sources */,
+				367BF1FF2AF4362F00B5FCB6 /* GridCards.swift in Sources */,
+				368922052AFD011F00791C89 /* TestStartView.swift in Sources */,
+				36977E342AF50DFC0093500A /* Blog.swift in Sources */,
+				36977E222AF4F0310093500A /* DetailView1.swift in Sources */,
+				367BF1F52AF429AA00B5FCB6 /* StartView.swift in Sources */,
+				36977E2C2AF4FCBE0093500A /* ListItemFavorite.swift in Sources */,
+				36977E1E2AF4E2E50093500A /* TextDetail.swift in Sources */,
+				36977E322AF507880093500A /* ListItemSettingsSection2.swift in Sources */,
+				36977E1C2AF4E25B0093500A /* VideoDetail.swift in Sources */,
+				367BF1F32AF4136100B5FCB6 /* DetailView.swift in Sources */,
+				36977E242AF4F06E0093500A /* DetailModel1.swift in Sources */,
+				36977E2A2AF4FB840093500A /* Favorities.swift in Sources */,
+				36738FEF2AF6AAE200C27088 /* TestWrapTextImage.swift in Sources */,
+				367BF1EF2AF3EC5300B5FCB6 /* MotoCard.swift in Sources */,
+				36977E1A2AF4DE7B0093500A /* ListModel.swift in Sources */,
+				36977E2E2AF4FEF40093500A /* Settings.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		367BF1E92AF3EB5800B5FCB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		367BF1EA2AF3EB5800B5FCB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		367BF1EC2AF3EB5800B5FCB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MotoControll/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.polych.MotoControll;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		367BF1ED2AF3EB5800B5FCB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MotoControll/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.polych.MotoControll;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		367BF1D82AF3EB5600B5FCB6 /* Build configuration list for PBXProject "MotoControll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				367BF1E92AF3EB5800B5FCB6 /* Debug */,
+				367BF1EA2AF3EB5800B5FCB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		367BF1EB2AF3EB5800B5FCB6 /* Build configuration list for PBXNativeTarget "MotoControll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				367BF1EC2AF3EB5800B5FCB6 /* Debug */,
+				367BF1ED2AF3EB5800B5FCB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 367BF1D52AF3EB5600B5FCB6 /* Project object */;
+}
