@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ButtonStart: View {
+struct ButtonStartNotWork: View {
     var image: String
     var text: String
     var body: some View {
@@ -30,5 +30,5 @@ struct ButtonStart: View {
 }
 
 #Preview {
-    ButtonStart(image: "play.rectangle.fill", text: "Youtube")
+    ButtonStartNotWork(image: "play.rectangle.fill", text: "Youtube")
 }

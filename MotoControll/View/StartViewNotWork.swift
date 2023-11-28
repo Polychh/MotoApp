@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct StartView: View {
+struct StartViewNotWork: View {
     
     var body: some View {
         NavigationStack {
@@ -65,7 +65,7 @@ struct StartView: View {
 }
 
 #Preview {
-    StartView()
+    StartViewNotWork()
 }
 
 

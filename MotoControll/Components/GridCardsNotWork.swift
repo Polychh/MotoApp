@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct GridCards: View {
+struct GridCardsNotWork: View {
     var item: CardModel = cards[2]
     var body: some View {
         VStack(spacing: 16) {
@@ -18,7 +18,7 @@ struct GridCards: View {
                 .frame(maxWidth: .infinity)
                 .frame(height: 100)
                 .padding(15)
-            Text(item.hesdText)
+            Text(item.headText)
                 .font(.headline)
         }
         .foregroundStyle(.white)
@@ -35,5 +35,5 @@ struct GridCards: View {
 }
 
 #Preview {
-    GridCards()
+    GridCardsNotWork()
 }
