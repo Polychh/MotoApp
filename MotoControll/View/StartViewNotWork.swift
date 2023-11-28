@@ -31,17 +31,17 @@ struct StartViewNotWork: View {
                     Button {
                        print("Tapped")
                     } label: {
-                        ButtonStart(image: "play.rectangle.fill", text: "YouTube")
+                        ButtonStartNotWork(image: "play.rectangle.fill", text: "YouTube")
                     }
                     Button {
                        print("Tapped")
                     } label: {
-                        ButtonStart(image: "questionmark.square.fill", text: "FAQ")
+                        ButtonStartNotWork(image: "questionmark.square.fill", text: "FAQ")
                     }
                     Button {
                        print("Tapped")
                     } label: {
-                        ButtonStart(image: "ellipsis.bubble.fill", text: "Блог")
+                        ButtonStartNotWork(image: "ellipsis.bubble.fill", text: "Блог")
                     }
                 }
             }
