@@ -63,10 +63,11 @@ struct Exercises: View {
     func detailViews(_ theme: ListModel) -> some View{
         Group{
             switch theme.id{
-            case 1: DetailView(titleName: theme.theme)
-            case 2: DetailView1()
+            case 0: DetailView(titleText: theoryTheory.title, bodyText: theoryTheory.body)
+            case 1: DetailView(titleText: theoryUpMoto.title, bodyText: theoryUpMoto.body)
+            case 2: DetailView(titleText: theorySitMoto.title, bodyText: theorySitMoto.body)
             default:
-                MotoCard()
+                DetailView(titleText: theoryTheory.title, bodyText: theoryTheory.body)
             }
         }
     }

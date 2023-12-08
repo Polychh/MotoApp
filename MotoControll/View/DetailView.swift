@@ -1,47 +1,57 @@
 //
-//  DetailView.swift
+//  TestDetailView.swift
 //  MotoControll
 //
-//  Created by Polina on 02.11.2023.
+//  Created by Polina on 01.12.2023.
 //
 
 import SwiftUI
+import MarkdownUI
 
 struct DetailView: View {
-    var titleName: String
+    var titleText: MarkdownContent = theoryTheory.title
+    var bodyText: MarkdownContent = theoryTheory.body
+    var images: [String?] = theoryTheory.images
+    var videoId: String = theoryTheory.videoId
+    @State private var isLoading = true
     var body: some View {
-        ScrollView {
-            VideoDetail()
-            VStack(alignment: .leading, spacing: 10) {
-                Text(titleName)
-                    .font(.largeTitle)
-                    .bold()
-                TextDetail(text: detailTheme1.info1)
-                    .padding(.bottom, 10)
-                Text(detailTheme1.title2)
-                    .font(.headline)
-                TextDetail(text: detailTheme1.info2)
-                    .padding(.bottom, 10)
-                Text(detailTheme1.title3)
-                    .font(.headline)
-                TextDetail(text: detailTheme1.mark1)
-                HStack {
-                    TextDetail(text: detailTheme1.mark2)
-                    ImageDetail(image: "Moto1")
+        GeometryReader { geometry in
+            ScrollView(.vertical, showsIndicators: false){
+                YouTubeView(videoId: videoId, isLoading: $isLoading )
+                    .frame(width: geometry.size.width, height: 200)
+                    .cornerRadius(12)
+                    .overlay {
+                        Group{
+                            if isLoading {
+                                ProgressView().controlSize(.large).tint(.green)
+                            }
+                        }
+                    }
+
+                VStack(alignment: .leading, spacing: 16){
+                    Markdown(titleText)
+                        .padding(.top,8)
+                    Markdown(bodyText)
                 }
-                TextDetail(text: detailTheme1.mark3)
-                TextDetail(text: detailTheme1.mark4)
-                TextDetail(text: detailTheme1.mark5)
-                TextDetail(text: detailTheme1.info3)
-                Text( detailTheme1.info4)
-                    .font(.headline)
-                    .padding(5)
+                .markdownTextStyle {
+                    FontFamily(.custom("Trebuchet MS"))
+                }
+                .markdownTheme(.gitHub)
+                .padding(.horizontal)
+                LazyHStack(spacing: 8){
+                    ForEach(images.compactMap{$0}, id: \.self){ img in
+                        Image(img)
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .frame(width: geometry.size.width / CGFloat(images.count), height: 100)
+                    }
+                }
             }
-            .padding(.horizontal)
         }
+ 
     }
 }
 
 #Preview {
-    DetailView(titleName: detailTheme1.title1)
+    DetailView()
 }

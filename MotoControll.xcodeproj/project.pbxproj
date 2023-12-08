@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3617D9972B1A0CA700805582 /* DetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3617D9962B1A0CA700805582 /* DetailModel.swift */; };
+		3617D9992B1A0F4700805582 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3617D9982B1A0F4700805582 /* DetailView.swift */; };
+		3617D99C2B1B4E7000805582 /* MarkdownUI in Frameworks */ = {isa = PBXBuildFile; productRef = 3617D99B2B1B4E7000805582 /* MarkdownUI */; };
+		3617D99E2B230FC000805582 /* YouTubeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3617D99D2B230FC000805582 /* YouTubeView.swift */; };
 		361FAB632B1254A500D31D70 /* MTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361FAB622B1254A500D31D70 /* MTextField.swift */; };
 		361FAB652B1273AD00D31D70 /* MProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361FAB642B1273AD00D31D70 /* MProgressBar.swift */; };
 		364A8D932B11486500CEA416 /* StartViewMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364A8D922B11486500CEA416 /* StartViewMain.swift */; };
@@ -16,18 +20,12 @@
 		367BF1E82AF3EB5800B5FCB6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 367BF1E72AF3EB5800B5FCB6 /* Preview Assets.xcassets */; };
 		367BF1EF2AF3EC5300B5FCB6 /* MotoCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367BF1EE2AF3EC5200B5FCB6 /* MotoCard.swift */; };
 		367BF1F12AF40AFD00B5FCB6 /* CardsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367BF1F02AF40AFD00B5FCB6 /* CardsModel.swift */; };
-		367BF1F32AF4136100B5FCB6 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367BF1F22AF4136100B5FCB6 /* DetailView.swift */; };
 		367BF1F52AF429AA00B5FCB6 /* StartViewNotWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367BF1F42AF429AA00B5FCB6 /* StartViewNotWork.swift */; };
 		367BF1F72AF42C4C00B5FCB6 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367BF1F62AF42C4C00B5FCB6 /* ListView.swift */; };
 		367BF1F92AF42F1600B5FCB6 /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367BF1F82AF42F1600B5FCB6 /* ListItem.swift */; };
 		367BF1FF2AF4362F00B5FCB6 /* GridCardsNotWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367BF1FE2AF4362F00B5FCB6 /* GridCardsNotWork.swift */; };
 		368922072AFD0B2600791C89 /* ListModelAll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368922062AFD0B2600791C89 /* ListModelAll.swift */; };
 		36977E1A2AF4DE7B0093500A /* ListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36977E192AF4DE7B0093500A /* ListModel.swift */; };
-		36977E1C2AF4E25B0093500A /* VideoDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36977E1B2AF4E25B0093500A /* VideoDetail.swift */; };
-		36977E1E2AF4E2E50093500A /* TextDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36977E1D2AF4E2E50093500A /* TextDetail.swift */; };
-		36977E202AF4E5470093500A /* DetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36977E1F2AF4E5470093500A /* DetailModel.swift */; };
-		36977E222AF4F0310093500A /* DetailView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36977E212AF4F0310093500A /* DetailView1.swift */; };
-		36977E242AF4F06E0093500A /* DetailModel1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36977E232AF4F06E0093500A /* DetailModel1.swift */; };
 		36977E282AF4F6E60093500A /* ImageDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36977E272AF4F6E60093500A /* ImageDetail.swift */; };
 		36977E2A2AF4FB840093500A /* Favorities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36977E292AF4FB840093500A /* Favorities.swift */; };
 		36977E2C2AF4FCBE0093500A /* ListItemFavorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36977E2B2AF4FCBE0093500A /* ListItemFavorite.swift */; };
@@ -35,10 +33,12 @@
 		36977E302AF504A30093500A /* ListItemSettingsSection1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36977E2F2AF504A30093500A /* ListItemSettingsSection1.swift */; };
 		36977E322AF507880093500A /* ListItemSettingsSection2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36977E312AF507880093500A /* ListItemSettingsSection2.swift */; };
 		36977E342AF50DFC0093500A /* Exercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36977E332AF50DFC0093500A /* Exercises.swift */; };
-		36977E3A2AF517300093500A /* ButtonStartNotWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36977E392AF517300093500A /* ButtonStartNotWork.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3617D9962B1A0CA700805582 /* DetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailModel.swift; sourceTree = "<group>"; };
+		3617D9982B1A0F4700805582 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		3617D99D2B230FC000805582 /* YouTubeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeView.swift; sourceTree = "<group>"; };
 		361FAB622B1254A500D31D70 /* MTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTextField.swift; sourceTree = "<group>"; };
 		361FAB642B1273AD00D31D70 /* MProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MProgressBar.swift; sourceTree = "<group>"; };
 		364A8D922B11486500CEA416 /* StartViewMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewMain.swift; sourceTree = "<group>"; };
@@ -49,18 +49,12 @@
 		367BF1E72AF3EB5800B5FCB6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		367BF1EE2AF3EC5200B5FCB6 /* MotoCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotoCard.swift; sourceTree = "<group>"; };
 		367BF1F02AF40AFD00B5FCB6 /* CardsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsModel.swift; sourceTree = "<group>"; };
-		367BF1F22AF4136100B5FCB6 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		367BF1F42AF429AA00B5FCB6 /* StartViewNotWork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewNotWork.swift; sourceTree = "<group>"; };
 		367BF1F62AF42C4C00B5FCB6 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		367BF1F82AF42F1600B5FCB6 /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
 		367BF1FE2AF4362F00B5FCB6 /* GridCardsNotWork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCardsNotWork.swift; sourceTree = "<group>"; };
 		368922062AFD0B2600791C89 /* ListModelAll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModelAll.swift; sourceTree = "<group>"; };
 		36977E192AF4DE7B0093500A /* ListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModel.swift; sourceTree = "<group>"; };
-		36977E1B2AF4E25B0093500A /* VideoDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetail.swift; sourceTree = "<group>"; };
-		36977E1D2AF4E2E50093500A /* TextDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextDetail.swift; sourceTree = "<group>"; };
-		36977E1F2AF4E5470093500A /* DetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailModel.swift; sourceTree = "<group>"; };
-		36977E212AF4F0310093500A /* DetailView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView1.swift; sourceTree = "<group>"; };
-		36977E232AF4F06E0093500A /* DetailModel1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailModel1.swift; sourceTree = "<group>"; };
 		36977E272AF4F6E60093500A /* ImageDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetail.swift; sourceTree = "<group>"; };
 		36977E292AF4FB840093500A /* Favorities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorities.swift; sourceTree = "<group>"; };
 		36977E2B2AF4FCBE0093500A /* ListItemFavorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemFavorite.swift; sourceTree = "<group>"; };
@@ -68,7 +62,6 @@
 		36977E2F2AF504A30093500A /* ListItemSettingsSection1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemSettingsSection1.swift; sourceTree = "<group>"; };
 		36977E312AF507880093500A /* ListItemSettingsSection2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemSettingsSection2.swift; sourceTree = "<group>"; };
 		36977E332AF50DFC0093500A /* Exercises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercises.swift; sourceTree = "<group>"; };
-		36977E392AF517300093500A /* ButtonStartNotWork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStartNotWork.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3617D99C2B1B4E7000805582 /* MarkdownUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +131,7 @@
 				36977E292AF4FB840093500A /* Favorities.swift */,
 				36977E2D2AF4FEF40093500A /* Settings.swift */,
 				367BF1F62AF42C4C00B5FCB6 /* ListView.swift */,
-				367BF1F22AF4136100B5FCB6 /* DetailView.swift */,
-				36977E212AF4F0310093500A /* DetailView1.swift */,
+				3617D9982B1A0F4700805582 /* DetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -152,12 +145,10 @@
 				36977E2F2AF504A30093500A /* ListItemSettingsSection1.swift */,
 				36977E312AF507880093500A /* ListItemSettingsSection2.swift */,
 				367BF1FE2AF4362F00B5FCB6 /* GridCardsNotWork.swift */,
-				36977E1B2AF4E25B0093500A /* VideoDetail.swift */,
-				36977E1D2AF4E2E50093500A /* TextDetail.swift */,
 				36977E272AF4F6E60093500A /* ImageDetail.swift */,
-				36977E392AF517300093500A /* ButtonStartNotWork.swift */,
 				361FAB622B1254A500D31D70 /* MTextField.swift */,
 				361FAB642B1273AD00D31D70 /* MProgressBar.swift */,
+				3617D99D2B230FC000805582 /* YouTubeView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -168,8 +159,7 @@
 				367BF1F02AF40AFD00B5FCB6 /* CardsModel.swift */,
 				368922062AFD0B2600791C89 /* ListModelAll.swift */,
 				36977E192AF4DE7B0093500A /* ListModel.swift */,
-				36977E1F2AF4E5470093500A /* DetailModel.swift */,
-				36977E232AF4F06E0093500A /* DetailModel1.swift */,
+				3617D9962B1A0CA700805582 /* DetailModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -190,6 +180,9 @@
 			dependencies = (
 			);
 			name = MotoControll;
+			packageProductDependencies = (
+				3617D99B2B1B4E7000805582 /* MarkdownUI */,
+			);
 			productName = MotoControll;
 			productReference = 367BF1DD2AF3EB5600B5FCB6 /* MotoControll.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +211,9 @@
 				Base,
 			);
 			mainGroup = 367BF1D42AF3EB5600B5FCB6;
+			packageReferences = (
+				3617D99A2B1B4E7000805582 /* XCRemoteSwiftPackageReference "swift-markdown-ui" */,
+			);
 			productRefGroup = 367BF1DE2AF3EB5600B5FCB6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -244,28 +240,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3617D99E2B230FC000805582 /* YouTubeView.swift in Sources */,
 				367BF1E32AF3EB5700B5FCB6 /* ContentView.swift in Sources */,
-				36977E3A2AF517300093500A /* ButtonStartNotWork.swift in Sources */,
+				3617D9992B1A0F4700805582 /* DetailView.swift in Sources */,
 				36977E302AF504A30093500A /* ListItemSettingsSection1.swift in Sources */,
-				36977E202AF4E5470093500A /* DetailModel.swift in Sources */,
 				361FAB652B1273AD00D31D70 /* MProgressBar.swift in Sources */,
 				364A8D932B11486500CEA416 /* StartViewMain.swift in Sources */,
 				36977E282AF4F6E60093500A /* ImageDetail.swift in Sources */,
 				368922072AFD0B2600791C89 /* ListModelAll.swift in Sources */,
+				3617D9972B1A0CA700805582 /* DetailModel.swift in Sources */,
 				367BF1F12AF40AFD00B5FCB6 /* CardsModel.swift in Sources */,
 				367BF1E12AF3EB5700B5FCB6 /* MotoControllApp.swift in Sources */,
 				367BF1F72AF42C4C00B5FCB6 /* ListView.swift in Sources */,
 				367BF1F92AF42F1600B5FCB6 /* ListItem.swift in Sources */,
 				367BF1FF2AF4362F00B5FCB6 /* GridCardsNotWork.swift in Sources */,
 				36977E342AF50DFC0093500A /* Exercises.swift in Sources */,
-				36977E222AF4F0310093500A /* DetailView1.swift in Sources */,
 				367BF1F52AF429AA00B5FCB6 /* StartViewNotWork.swift in Sources */,
 				36977E2C2AF4FCBE0093500A /* ListItemFavorite.swift in Sources */,
-				36977E1E2AF4E2E50093500A /* TextDetail.swift in Sources */,
 				36977E322AF507880093500A /* ListItemSettingsSection2.swift in Sources */,
-				36977E1C2AF4E25B0093500A /* VideoDetail.swift in Sources */,
-				367BF1F32AF4136100B5FCB6 /* DetailView.swift in Sources */,
-				36977E242AF4F06E0093500A /* DetailModel1.swift in Sources */,
 				361FAB632B1254A500D31D70 /* MTextField.swift in Sources */,
 				36977E2A2AF4FB840093500A /* Favorities.swift in Sources */,
 				367BF1EF2AF3EC5300B5FCB6 /* MotoCard.swift in Sources */,
@@ -474,6 +466,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3617D99A2B1B4E7000805582 /* XCRemoteSwiftPackageReference "swift-markdown-ui" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/gonzalezreal/swift-markdown-ui.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3617D99B2B1B4E7000805582 /* MarkdownUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3617D99A2B1B4E7000805582 /* XCRemoteSwiftPackageReference "swift-markdown-ui" */;
+			productName = MarkdownUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 367BF1D52AF3EB5600B5FCB6 /* Project object */;
 }

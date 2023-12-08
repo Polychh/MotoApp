@@ -14,7 +14,7 @@ struct StartViewMain: View {
     var body: some View {
         NavigationStack(path: $path) {
             VStack{
-                MTextField(word: $word, placeHolder: "Enter word")
+                MTextField(word: $word, placeHolder: "Введите слово")
                     .padding(.horizontal, 8)
                 MProgressBar()
                     .padding(.horizontal, 8)
@@ -39,11 +39,9 @@ struct StartViewMain: View {
                         }, label: {
                             ListItem(item: item)
                         })
-        //                NavigationLink(value: item) {
-        //                    ListItem(item: item)
-        //                }
+                       
                         .listRowSeparator(.hidden)
-                        .listRowInsets(.init(top: 0, leading: 0, bottom: 0, trailing: 0))
+                        .listRowInsets(.init(top: 5, leading: 0, bottom: 5, trailing: 0))
 
                     }
                 }
@@ -53,10 +51,8 @@ struct StartViewMain: View {
                     detailViews(theme)
                 }
             }
-
       }
     }
-    
 
     func choseList(_ themeArray: ListModelAll) -> [ListModel]{
         switch themeArray.id{
@@ -70,12 +66,16 @@ struct StartViewMain: View {
     
     func detailViews(_ theme: ListModel) -> some View{
         Group{
-            switch theme.id{
-            case 1: DetailView(titleName: theme.theme)
-            case 2: DetailView1()
-            default:
-                MotoCard()
+            if idCard == 0{
+                switch theme.id{
+                case 0: DetailView(titleText: theoryTheory.title, bodyText: theoryTheory.body,images: theoryTheory.images, videoId: theoryTheory.videoId)
+                case 1: DetailView(titleText: theoryUpMoto.title, bodyText: theoryUpMoto.body,images: theoryUpMoto.images, videoId: theoryUpMoto.videoId)
+                case 2: DetailView(titleText: theorySitMoto.title, bodyText: theorySitMoto.body,images: theorySitMoto.images, videoId: theorySitMoto.videoId)
+                default:
+                    DetailView(titleText: theoryTheory.title, bodyText: theoryTheory.body, images: theoryTheory.images, videoId: theoryTheory.videoId)
+                }
             }
+ 
         }
     }
 }
